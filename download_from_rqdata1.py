@@ -76,7 +76,7 @@ def download_data1(date: str):
     shutil.make_archive(f'{output_dir}', 'zip', f'{output_dir}')
     os.rename(f'/data/zrz/rqdata_daily/daily_data1/{date}.zip', f'/data/zrz/rqdata_daily/daily_zip/daily1_{date}.zip')
     os.system(f'scp /data/zrz/rqdata_daily/daily_zip/daily1_{date}.zip '
-              f'zhangym@172.16.10.102:/app/zrz/rqdata/rq_daily_data1/daily1_{date}.zip')
+              f'zhangym@172.16.10.104:/app/zrz/rqdata/zips/daily1_{date}.zip')
 
 
 def ticker_converter(code: str) -> str:
