@@ -1,2 +1,2 @@
-30 17 * * 1-5 /home/zrz/.conda/envs/rqsdk/bin/python /home/zrz/rqdata_daily/daily_download1.py
-00 07 * * 1-5 /home/zrz/.conda/envs/rqsdk/bin/python /home/zrz/rqdata_daily/daily_download2_risk.py
+30 18 * * 1-5 /home/zrz/.conda/envs/rqsdk/bin/python /home/zrz/rqdata_daily/daily_download1.py >> /home/zrz/rqdata_daily/log/log_1.txt
+00 07 * * 1-5 /home/zrz/.conda/envs/rqsdk/bin/python /home/zrz/rqdata_daily/daily_download2_risk.py >> /home/zrz/rqdata_daily/log/log_2.txt
